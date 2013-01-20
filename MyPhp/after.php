@@ -6,12 +6,12 @@
 <?php
 $nickname=$_POST['nickname'];
 if($nickname==''){
-	print 'テキストボックスをシカトするとはいい度胸じゃねえか！';
+	print '入力が空です！';
 	}
 else{
-	print'でっでたあああああああ ';
+	print'ようこそ ';
 	print $nickname;
-	print' があらわれたぞおおおおおお';
+	print' さん';
 }
 	
 ?>
